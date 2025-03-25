@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_17",
+  "package": "com.angelofcreation.pet_necropolis.mixin",
+  "refmap": "pet_necropolis.mixin-refmap.json",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "PCEventsMixin",
+    "PetCollarItemMixin"
+  ]
+}
